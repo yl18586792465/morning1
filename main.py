@@ -46,7 +46,7 @@ def get_weather():
 
 # 获取情话
 def get_text():
-  # url = "https://v2.alapi.cn/api/qinghua?token=LwExDtUWhF3rH5ib"
+  # url = "https://v1.hitokoto.cn/?c=i"
   url = "https://api.lovelive.tools/api/SweetNothings?type=json"
   res = requests.get(url).json()
   if res is None:
